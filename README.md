@@ -36,8 +36,8 @@ To use this application you need to install and run the respective microservices
 - **Movies**: <https://github.com/JaviQuilumba/MicroservicesMovies.git>
 - **Snacks**: <https://github.com/JaviQuilumba/MicroservicesSnacks.git>
 - **Theaters**: <https://github.com/JaviQuilumba/MicroservicesTheaters.git>
-- **Info**: <https://github.com>
-- **Releases**: <https://github.com>
+- **Info**: <https://github.com/JaviQuilumba/MicroservicesInfo.git>
+- **Releases**: <https://github.com/JaviQuilumba/MicroservicesReleases.git>
 
 #### Technologies used for these microservices
 - **Node.js** with the Express.js framework for the backend server.
