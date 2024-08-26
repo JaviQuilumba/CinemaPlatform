@@ -6,7 +6,7 @@ import './styles/MovieList.css';
 import config from '../config';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:3005/graphql',
+  uri: 'http://161.35.123.115:3005/graphql',
   cache: new InMemoryCache()
 });
 
