@@ -15,7 +15,7 @@ const EditMovie = () => {
 
   const fetchMovie = useCallback(async () => {
     try {
-      const response = await axios.get(`http://localhost:4017/movies/${id}`);
+      const response = await axios.get(`http://157.230.221.17:4017/movies/${id}`);
       const movie = response.data;
       setTitle(movie.title);
       setDescription(movie.description);
@@ -36,7 +36,7 @@ const EditMovie = () => {
     const updatedMovie = { title, description, genre, releaseDate, duration };
 
     try {
-      await axios.put(`http://localhost:4017/movies/${id}`, updatedMovie);
+      await axios.put(`http://157.230.221.17:4017/movies/${id}`, updatedMovie);
       alert('Movie updated successfully!');
       navigate('/');
     } catch (error) {

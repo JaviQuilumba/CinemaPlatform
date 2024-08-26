@@ -16,7 +16,7 @@ const ReleasesList = () => {
 
   const fetchReleases = async () => {
     try {
-      const response = await axios.get('http://localhost:4018/api/movies');
+      const response = await axios.get('http://157.230.221.17:4018/api/movies');
       setReleases(response.data);
     } catch (err) {
       console.error('Error fetching releases:', err);
