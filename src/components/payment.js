@@ -9,14 +9,14 @@ const PaymentsList = () => {
     const fetchPayments = async () => {
       try {
         const xmlRequest = `
-          <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:pay="http://localhost:3016/paymentService">
+          <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:pay="http://167.99.154.169:3016/paymentService">
             <soapenv:Header/>
             <soapenv:Body>
               <pay:listPaymentRequest/>
             </soapenv:Body>
           </soapenv:Envelope>`;
   
-        const response = await axios.post('http://localhost:3016/wsdl', xmlRequest, {
+        const response = await axios.post('http://167.99.154.169:3016/wsdl', xmlRequest, {
           headers: { 'Content-Type': 'text/xml' }
         });
   
