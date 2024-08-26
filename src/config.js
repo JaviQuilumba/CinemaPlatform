@@ -12,8 +12,8 @@ const config = {
     BASE_URL_SNACK_DELETE: 'http://147.182.176.7:3013/deleteSnack',
     BASE_URL_SNACK_UPDATE: 'http://147.182.176.7:3014/api/snacks',
     BASE_URL_SNACK: 'http://147.182.176.7:3015/api/snacks',
-    BASE_URL_ROOMS: 'http://127.0.0.1:3017/api/rooms',
-    BASE_URL_OFFERS: 'http://localhost:8080/index.php',
+    BASE_URL_ROOMS: 'http://167.99.154.169:3017/api/rooms',
+    BASE_URL_OFFERS: 'http://167.99.154.169:8080/index.php',
   };
   
   export default config;
